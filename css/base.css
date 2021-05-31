@@ -49,6 +49,10 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+body {
+    margin: 0;
+}
+
 html::-webkit-scrollbar {
   width: 20px;
 }
@@ -83,10 +87,6 @@ html::-webkit-scrollbar-thumb:hover {
 html::-webkit-scrollbar-thumb:active {
   background: rgb(68, 68, 68);
   border-radius: 10px;
-}
-
-body {
-    margin: 0;
 }
 
 article,
